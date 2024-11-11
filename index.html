@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dad Jokes Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dad Jokes Generator</h1>
+    <p id="jokeDisplay">Click the button below for a joke!</p>
+    <button id="jokeButton">Tell Me A Joke</button>
+    <div class="controls">
+      <button id="shareButton">Share</button>
+      <button id="toggleMode">Dark Mode</button>
+      <select id="textSize">
+        <option value="1em">Normal</option>
+        <option value="1.2em">Large</option>
+        <option value="1.5em">Extra Large</option>
+      </select>
+    </div>
+    <div id="loading" class="hidden">🤔 Loading...</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
